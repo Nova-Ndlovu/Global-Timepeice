@@ -4,33 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Eagle+Lake&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src\style.css" />
     <title>Global Timepiece</title>
   </head>
   <body>
     <div class="container">
-      <h1>World Clock</h1>
+      <h1 class="header">World Clock</h1>
 
-      <select name="" id="location">
-        <option value="nothing" name="" id="nothing" selected>
+      <select class="location-select" name="" id="location">
+        <option class="choice" value="nothing" name="" id="nothing" selected>
           Select a city
         </option>
-        <option value="london" name="" id="london">London</option>
-        <option value="new-york" name="" id="new-york">New York</option>
-        <option value="sydney" name="" id="sydney">Sydney</option>
+        <option class="choice" value="london" name="" id="london">
+          London
+        </option>
+        <option class="choice" value="new-york" name="" id="new-york">
+          New York
+        </option>
+        <option class="choice" value="sydney" name="" id="sydney">
+          Sydney
+        </option>
       </select>
 
       <div class="city">
-        <h2>Los Angeles 🇺🇸</h2>
-        <div class="date">April 16th, 2025</div>
-        <div class="time">03:33:33 AM</div>
+        <div>
+          <h2>Los Vegas 🇺🇸</h2>
+          <div class="date">April 16th, 2025</div>
+        </div>
+        <div class="time">03:33:33 <small> AM </small></div>
       </div>
-      <div class="city"></div>
-      <h2>Sydney 🇦🇺</h2>
-      <div class="date">April 16th, 2025</div>
-      <div class="time">03:33:33 AM</div>
+      <div class="city">
+        <div>
+          <h2>Johannesburg 🇿🇦</h2>
+          <div class="date">April 16th, 2025</div>
+        </div>
+        <div class="time">04:44:44 <small> AM </small></div>
+      </div>
     </div>
-    
+
     <footer class="fineprint">
       This project was coded by
       <a href="https://github.com/Nova-Ndlovu" target="_blank">Nova Ndlovu</a>
