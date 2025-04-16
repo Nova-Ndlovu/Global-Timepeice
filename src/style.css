@@ -1,0 +1,16 @@
+body {
+  background: rgb(46, 139, 87);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.notice {
+  margin: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.fineprint {
+  margin-top: 10px;
+  font-size: 15px;
+}
