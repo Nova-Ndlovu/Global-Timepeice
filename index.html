@@ -11,6 +11,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src\style.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+
     <title>Global Timepiece</title>
   </head>
   <body>
@@ -32,19 +36,19 @@
         </option>
       </select>
 
-      <div class="city">
+      <div class="city" id="chosen-location">
         <div>
-          <h2>Los Vegas 🇺🇸</h2>
-          <div class="date">April 16th, 2025</div>
+          <h2>Las Vegas 🇺🇸</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">03:33:33 <small> AM </small></div>
+        <div class="time"><small> AM </small></div>
       </div>
-      <div class="city">
+      <div class="city" id="current-location">
         <div>
           <h2>Soweto 🇿🇦</h2>
-          <div class="date">April 16th, 2025</div>
+          <div class="date"></div>
         </div>
-        <div class="time">02:22:22 <small> AM </small></div>
+        <div class="time"></small></div>
       </div>
     </div>
 

@@ -4,7 +4,8 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: rgb(127, 127, 127);
+  height: 90vh;
+  color: rgb(150, 125, 111);
   font-family: "Eagle Lake", serif;
   text-align: center;
 }
@@ -61,11 +62,13 @@ body {
   position: relative;
   top: -20px;
   opacity: 0.7;
+  text-shadow: 6px 4px 6px rgb(255, 232, 218);
 }
 
 .container .city .time {
   font-size: 33px;
   font-weight: bold;
+  text-shadow: 6px 4px 6px rgb(255, 232, 218);
 }
 
 .time small {
