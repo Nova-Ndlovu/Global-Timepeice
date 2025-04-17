@@ -34,7 +34,6 @@ body {
   border: 2px solid rgb(255, 255, 255);
   border-radius: 4px;
   width: 100%;
-  font-size: 18px;
   font-family: "Eagle Lake", serif;
   padding: 5px;
 }
@@ -65,13 +64,13 @@ body {
 }
 
 .city .time {
-  font-size: 38px;
+  font-size: 33px;
   font-weight: bold;
 }
 .time small {
   font-size: 14px;
   vertical-align: middle;
-  line-height: 38px;
+  line-height: 33px;
 }
 
 .fineprint {
