@@ -58,6 +58,10 @@ body {
   border: none;
 }
 
+.container .name {
+  color: rgb(255, 255, 255);
+}
+
 .container.city .date {
   position: relative;
   top: -20px;
