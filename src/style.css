@@ -4,10 +4,9 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: fit-content;
   color: rgb(150, 125, 111);
   font-family: "Eagle Lake", serif;
-  text-align: center;
 }
 
 .container {
@@ -16,7 +15,7 @@ body {
   background-size: contain;
   margin: 50px auto;
   padding: 5px;
-  width: 35%;
+  width: 30%;
   box-shadow: rgba(249, 195, 147, 0.4) 5px 5px,
     rgba(249, 195, 147, 0.3) 10px 10px, rgba(249, 195, 147, 0.2) 15px 15px,
     rgba(249, 195, 147, 0.1) 20px 20px, rgba(249, 195, 147, 0.05) 25px 25px;
@@ -27,6 +26,7 @@ body {
   letter-spacing: 1.5px;
   line-height: 1.5;
   text-shadow: 6px 4px 6px rgb(255, 232, 218);
+  text-align: center;
 }
 
 .container .location-select {
@@ -46,7 +46,7 @@ body {
 }
 
 .container .city {
-  display: flex;
+  display: flexbox;
   margin: 10px 0;
   justify-content: space-between;
   padding: 25px 0;
@@ -59,20 +59,24 @@ body {
 }
 
 .container .name {
-  color: rgb(255, 255, 255);
+  display: flex;
+  margin-bottom: 0;
+  text-shadow: 6px 4px 6px rgb(255, 232, 218);
 }
 
 .container.city .date {
   position: relative;
-  top: -20px;
   opacity: 0.7;
   text-shadow: 6px 4px 6px rgb(255, 232, 218);
 }
 
 .container .city .time {
-  font-size: 33px;
+  position: relative;
+  bottom: 70px;
+  font-size: 40px;
   font-weight: bold;
   text-shadow: 6px 4px 6px rgb(255, 232, 218);
+  text-align: right;
 }
 
 .time small {
