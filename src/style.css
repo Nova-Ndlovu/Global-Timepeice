@@ -15,18 +15,29 @@ body {
   background-size: contain;
   margin: 50px auto;
   padding: 5px;
-  width: 30%;
+  width: 35%;
+  height: fit-content;
   box-shadow: rgba(249, 195, 147, 0.4) 5px 5px,
     rgba(249, 195, 147, 0.3) 10px 10px, rgba(249, 195, 147, 0.2) 15px 15px,
     rgba(249, 195, 147, 0.1) 20px 20px, rgba(249, 195, 147, 0.05) 25px 25px;
 }
 
 .container .header {
-  font-size: 36px;
+  font-size: 55px;
   letter-spacing: 1.5px;
   line-height: 1.5;
   text-shadow: 6px 4px 6px rgb(255, 232, 218);
   text-align: center;
+}
+
+.container .header .tiny {
+  position: relative;
+  bottom: -6px;
+  border: 6px solid rgb(150, 125, 111);
+  border-radius: 180px;
+  width: 8%;
+  height: 6vh;
+  mix-blend-mode: darken;
 }
 
 .container .location-select {
@@ -50,7 +61,7 @@ body {
   margin: 10px 0;
   justify-content: space-between;
   padding: 25px 0;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  border-bottom: 1px dashed rgba(150, 125, 111, 0.8);
   text-shadow: 0 0 15px rgb(251, 219, 174);
 }
 
@@ -90,11 +101,12 @@ body {
   font-size: 10px;
   font-weight: 600;
   text-shadow: 0 0 15px rgb(251, 219, 174);
+  text-align: center;
 }
 
 a {
   border-radius: 4px;
-  color: rgb(127, 127, 127);
+  color: rgb(150, 125, 111);
   text-decoration: none;
   background: none;
   border: 2px solid rgb(251, 219, 174);
