@@ -42,16 +42,16 @@ body {
 
 .container .location-select {
   display: block;
-  background: rgba(255, 255, 255, 0.6);
-  border: 2px solid rgb(255, 255, 255);
+  background: rgba(255, 212, 119, 0.5);
+  border: 2px solid rgb(249, 195, 147);
   border-radius: 4px;
   width: 100%;
   font-family: "Eagle Lake", serif;
   padding: 5px;
+  color: rgb(131, 109, 97);
 }
 
 .location-select .choice {
-  background: rgba(255, 213, 189, 0.4);
   color: rgb(127, 127, 127);
   font-family: "Eagle Lake", serif;
 }
@@ -61,7 +61,7 @@ body {
   margin: 10px 0;
   justify-content: space-between;
   padding: 25px 0;
-  border-bottom: 1px dashed rgba(150, 125, 111, 0.8);
+  border-bottom: 6px dotted rgba(255, 198, 119, 0.8);
   text-shadow: 0 0 15px rgb(251, 219, 174);
 }
 
