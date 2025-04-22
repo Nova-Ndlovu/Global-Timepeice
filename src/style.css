@@ -42,8 +42,8 @@ body {
 
 .container .location-select {
   display: block;
-  background: rgba(255, 212, 119, 0.5);
-  border: 2px solid rgb(249, 195, 147);
+  background: rgb(255, 226, 190);
+  border: 2px solid rgb(251, 213, 100);
   border-radius: 4px;
   width: 100%;
   font-family: "Eagle Lake", serif;
@@ -61,7 +61,7 @@ body {
   margin: 10px 0;
   justify-content: space-between;
   padding: 25px 0;
-  border-bottom: 6px dotted rgba(255, 198, 119, 0.8);
+  border-bottom: 6px double rgb(251, 213, 100);
   text-shadow: 0 0 15px rgb(251, 219, 174);
 }
 
